@@ -1,21 +1,21 @@
-.loader{
-    display: flex;
-    height: inherit;
-    width: inherit;
-    justify-content: center;
-    align-items: center;
+.loader {
+  display: flex;
+  height: 100vh;
+  width: inherit;
+  justify-content: center;
+  align-items: center;
 
-    .loader_container{
-        width: 5rem;
-        height: 5rem;
-        display: flex;
-        justify-content: space-around;
-        
-        .loading_circle{
-            display: block;
-            width: 1rem;
-            height: 1rem;
-            border-radius: 0.25rem;   
-        }
+  .loader_container {
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+
+    .loading_circle {
+      display: block;
+      width: 1rem;
+      height: 1rem;
+      border-radius: 0.25rem;
     }
+  }
 }
